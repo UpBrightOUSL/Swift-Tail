@@ -1,4 +1,4 @@
-# swift_tail
+# music
 
 ## Project setup
 ```
