@@ -24,8 +24,6 @@ a:hover {
 }
 
 .introduction-bg {
-  animation: slide 50s linear infinite;
-  will-change: background-position;
   z-index: -1;
 }
 
@@ -40,26 +38,18 @@ input[type="file"]{
   margin-top: 20px;
 }
 
-.home-bg {
+.hm-btn {
+  background-color: rgb(243, 243, 138);
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: black;
+  height: 2rem;
+  padding: 10px;
+}
+
+/* .home-bg {
   animation: slide 50s linear infinite;
   will-change: background-position;
   background-image: url(../../public/assets/img/header.jpg);
-}
+} */
 
-@keyframes progress-bar-stripes {
-  0% {
-    background-position: 1rem 0;
-  }
-  100% {
-    background-position: 0 0;
-  }
-}
-
-@keyframes slide {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: -4000px 0;
-  }
-}
