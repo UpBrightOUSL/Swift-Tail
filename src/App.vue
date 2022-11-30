@@ -24,7 +24,7 @@
 
   <!-- Options -->
   <section class="container mx-auto">
-    <div class="bg-white rounded border border-gray-200 flex flex-row space-x-7 md:space-x-32 p-7 justify-center text-xl font-semibold">
+    <div class="bg-white rounded border border-gray-200 flex flex-row md:flex-wrap space-x-7 md:space-x-32 p-7 justify-center text-xl font-semibold">
       <div><button class="bg-gradient-to-r from-green-400 to-green-200 rounded-lg border border-gray-200 h-auto md:h-16 p-2">Train Schedule</button></div>
       <div><button class="bg-gradient-to-r from-green-400 to-green-200 rounded-lg border border-gray-200 h-auto md:h-16 p-2">Train Reservation</button></div>
       <div><button class="bg-gradient-to-r from-green-400 to-green-200 rounded-lg border border-gray-200 h-auto md:h-16 p-2">Train Reservation Cancellation</button></div>
