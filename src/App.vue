@@ -1,5 +1,6 @@
 <!-- eslint-disable max-len -->
 <!-- eslint-disable vuejs-accessibility/alt-text -->
+<!-- Comment -->
 <template>
   <AppHeader />
   <AuthModal />
