@@ -3,7 +3,11 @@ module.exports = {
     purge: { content: ['./public/**/*.html', './src/**/*.vue'] },
     darkMode: false,
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                quicksand: ['Quicksand'],
+            },
+        },
     },
     variants: {
         extend: {},

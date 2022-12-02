@@ -25,13 +25,13 @@
                 placeholder="Enter Email" />
               <ErrorMessage name="email" class="text-red-600" />
             </div>
-            <!-- Age -->
+            <!-- NIC -->
             <div class="mb-3">
-              <label class="inline-block mb-2">Age</label>
-              <vee-field type="number" name="age"
+              <label class="inline-block mb-2">NIC</label>
+              <vee-field type="number" name="nic"
                 class="block w-full py-1.5 px-3 text-gray-800 border border-gray-300 transition
                   duration-500 focus:outline-none focus:border-black rounded" />
-              <ErrorMessage name="age" class="text-red-600" />
+              <ErrorMessage name="nic" class="text-red-600" />
             </div>
             <!-- Password -->
             <div class="mb-3">
@@ -54,19 +54,6 @@
                   duration-500 focus:outline-none focus:border-black rounded"
                 placeholder="Confirm Password" />
               <ErrorMessage name="confirm_password" class="text-red-600" />
-            </div>
-            <!-- Country -->
-            <div class="mb-3">
-              <label class="inline-block mb-2">Country</label>
-              <vee-field as="select" name="country"
-                class="block w-full py-1.5 px-3 text-gray-800 border border-gray-300 transition
-                  duration-500 focus:outline-none focus:border-black rounded">
-                <option value="USA">USA</option>
-                <option value="Mexico">Mexico</option>
-                <option value="Germany">Germany</option>
-                <option value="Antarctica">Antarctica</option>
-              </vee-field>
-              <ErrorMessage name="country" class="text-red-600" />
             </div>
             <!-- TOS -->
             <div class="mb-3 pl-6">
@@ -92,7 +79,7 @@ export default {
       schema: {
         name: 'required|min:3|max:100|alpha_spaces',
         email: 'required|min:3|max:100|email',
-        age: 'required|minVal:18|maxVal:100',
+        nic: 'required|minVal:18|maxVal:100',
         password: 'required|min:8|max:30',
         confirm_password: 'confirmed:@password',
         country: 'required|country_excluded:Antarctica',
