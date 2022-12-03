@@ -17,5 +17,9 @@ export default createStore({
     authModalShow: (state) => state.authModalShow,
   },
   actions: {
+    async register({ commit }, payload) {
+      console.log(payload);
+      commit('toggleAuth');
+    },
   },
 });

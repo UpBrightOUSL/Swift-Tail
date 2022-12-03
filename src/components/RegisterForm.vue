@@ -82,11 +82,7 @@ export default {
         nic: 'required|minVal:18|maxVal:100',
         password: 'required|min:8|max:30',
         confirm_password: 'confirmed:@password',
-        country: 'required|country_excluded:Antarctica',
         tos: 'tos',
-      },
-      userData: {
-        country: 'USA',
       },
       reg_in_submission: false,
       reg_show_alert: false,
@@ -102,7 +98,6 @@ export default {
       this.reg_alert_msg = 'please wait! your account is being created.';
       // eslint-disable-next-line max-len
       try {
-        // eslint-disable-next-line max-len
         await this.$store.dispatch('register', values);
       } catch (error) {
         this.reg_in_submission = false;
