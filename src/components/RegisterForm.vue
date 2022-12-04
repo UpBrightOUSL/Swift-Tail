@@ -28,7 +28,7 @@
             <!-- NIC -->
             <div class="mb-3">
               <label class="inline-block mb-2">NIC</label>
-              <vee-field type="number" name="nic"
+              <vee-field type="number" name="nic" placeholder="Enter NIC"
                 class="block w-full py-1.5 px-3 text-gray-800 border border-gray-300 transition
                   duration-500 focus:outline-none focus:border-black rounded" />
               <ErrorMessage name="nic" class="text-red-600" />
